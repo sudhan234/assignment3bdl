@@ -1,0 +1,40 @@
+[2024-03-09T22:28:18.611+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: task2dag.data_visualization_pipeline manual__2024-03-09T22:27:12.112709+00:00 [queued]>
+[2024-03-09T22:28:18.619+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: task2dag.data_visualization_pipeline manual__2024-03-09T22:27:12.112709+00:00 [queued]>
+[2024-03-09T22:28:18.619+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-03-09T22:28:18.632+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): data_visualization_pipeline> on 2024-03-09 22:27:12.112709+00:00
+[2024-03-09T22:28:18.642+0000] {standard_task_runner.py:60} INFO - Started process 1955 to run task
+[2024-03-09T22:28:18.645+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'task2dag', 'data_visualization_pipeline', 'manual__2024-03-09T22:27:12.112709+00:00', '--job-id', '869', '--raw', '--subdir', 'DAGS_FOLDER/task2dag.py', '--cfg-path', '/tmp/tmpq5thewhm']
+[2024-03-09T22:28:18.646+0000] {standard_task_runner.py:88} INFO - Job 869: Subtask data_visualization_pipeline
+[2024-03-09T22:28:18.685+0000] {task_command.py:423} INFO - Running <TaskInstance: task2dag.data_visualization_pipeline manual__2024-03-09T22:27:12.112709+00:00 [running]> on host 9268fe474086
+[2024-03-09T22:28:18.760+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='task2dag' AIRFLOW_CTX_TASK_ID='data_visualization_pipeline' AIRFLOW_CTX_EXECUTION_DATE='2024-03-09T22:27:12.112709+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-09T22:27:12.112709+00:00'
+[2024-03-09T22:28:18.917+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/task2dag.py", line 185, in visualisation_pipeline
+    GDF.to_file("/opt/airflow/output/GDFOUT.gpkg", driver="GPKG")
+  File "/home/airflow/.local/lib/python3.8/site-packages/geopandas/geodataframe.py", line 1263, in to_file
+    _to_file(self, filename, driver, schema, index, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/geopandas/io/file.py", line 572, in _to_file
+    _to_file_fiona(df, filename, driver, schema, crs, mode, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/geopandas/io/file.py", line 581, in _to_file_fiona
+    schema = infer_schema(df)
+  File "/home/airflow/.local/lib/python3.8/site-packages/geopandas/io/file.py", line 663, in infer_schema
+    geom_types = _geometry_types(df)
+  File "/home/airflow/.local/lib/python3.8/site-packages/geopandas/io/file.py", line 674, in _geometry_types
+    geom_types_2D = df[~df.geometry.has_z].geometry.geom_type.unique()
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/generic.py", line 5989, in __getattr__
+    return object.__getattribute__(self, name)
+  File "/home/airflow/.local/lib/python3.8/site-packages/geopandas/geodataframe.py", line 235, in _get_geometry
+    raise AttributeError(msg)
+AttributeError: You are calling a geospatial method on the GeoDataFrame, but the active geometry column to use has not been set. 
+There are no existing columns with geometry data type. You can add a geometry column as the active geometry column with df.set_geometry. 
+[2024-03-09T22:28:18.937+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=task2dag, task_id=data_visualization_pipeline, execution_date=20240309T222712, start_date=20240309T222818, end_date=20240309T222818
+[2024-03-09T22:28:18.950+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 869 for task data_visualization_pipeline (You are calling a geospatial method on the GeoDataFrame, but the active geometry column to use has not been set. 
+There are no existing columns with geometry data type. You can add a geometry column as the active geometry column with df.set_geometry. ; 1955)
+[2024-03-09T22:28:18.977+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-03-09T22:28:19.003+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

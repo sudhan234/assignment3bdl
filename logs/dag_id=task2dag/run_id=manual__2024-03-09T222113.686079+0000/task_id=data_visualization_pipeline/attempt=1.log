@@ -1,0 +1,14 @@
+[2024-03-09T22:22:19.429+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: task2dag.data_visualization_pipeline manual__2024-03-09T22:21:13.686079+00:00 [queued]>
+[2024-03-09T22:22:19.440+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: task2dag.data_visualization_pipeline manual__2024-03-09T22:21:13.686079+00:00 [queued]>
+[2024-03-09T22:22:19.441+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-03-09T22:22:19.456+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): data_visualization_pipeline> on 2024-03-09 22:21:13.686079+00:00
+[2024-03-09T22:22:19.468+0000] {standard_task_runner.py:60} INFO - Started process 1835 to run task
+[2024-03-09T22:22:19.471+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'task2dag', 'data_visualization_pipeline', 'manual__2024-03-09T22:21:13.686079+00:00', '--job-id', '863', '--raw', '--subdir', 'DAGS_FOLDER/task2dag.py', '--cfg-path', '/tmp/tmpup94o1wo']
+[2024-03-09T22:22:19.472+0000] {standard_task_runner.py:88} INFO - Job 863: Subtask data_visualization_pipeline
+[2024-03-09T22:22:19.516+0000] {task_command.py:423} INFO - Running <TaskInstance: task2dag.data_visualization_pipeline manual__2024-03-09T22:21:13.686079+00:00 [running]> on host 9268fe474086
+[2024-03-09T22:22:19.591+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='task2dag' AIRFLOW_CTX_TASK_ID='data_visualization_pipeline' AIRFLOW_CTX_EXECUTION_DATE='2024-03-09T22:21:13.686079+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-09T22:21:13.686079+00:00'
+[2024-03-09T22:22:19.634+0000] {logging_mixin.py:188} INFO - heatmap in vizs
+[2024-03-09T22:22:19.635+0000] {python.py:201} INFO - Done. Returned value was: None
+[2024-03-09T22:22:19.645+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=task2dag, task_id=data_visualization_pipeline, execution_date=20240309T222113, start_date=20240309T222219, end_date=20240309T222219
+[2024-03-09T22:22:19.685+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-09T22:22:19.705+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

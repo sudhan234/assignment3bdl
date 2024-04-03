@@ -1,0 +1,33 @@
+[2024-03-09T21:16:54.302+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: task2dag.data_processing_pipe manual__2024-03-09T21:16:28.052647+00:00 [queued]>
+[2024-03-09T21:16:54.310+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: task2dag.data_processing_pipe manual__2024-03-09T21:16:28.052647+00:00 [queued]>
+[2024-03-09T21:16:54.310+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-03-09T21:16:54.323+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): data_processing_pipe> on 2024-03-09 21:16:28.052647+00:00
+[2024-03-09T21:16:54.331+0000] {standard_task_runner.py:60} INFO - Started process 576 to run task
+[2024-03-09T21:16:54.334+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'task2dag', 'data_processing_pipe', 'manual__2024-03-09T21:16:28.052647+00:00', '--job-id', '805', '--raw', '--subdir', 'DAGS_FOLDER/task2dag.py', '--cfg-path', '/tmp/tmpvq8u0xs6']
+[2024-03-09T21:16:54.335+0000] {standard_task_runner.py:88} INFO - Job 805: Subtask data_processing_pipe
+[2024-03-09T21:16:54.374+0000] {task_command.py:423} INFO - Running <TaskInstance: task2dag.data_processing_pipe manual__2024-03-09T21:16:28.052647+00:00 [running]> on host 9268fe474086
+[2024-03-09T21:16:54.447+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='task2dag' AIRFLOW_CTX_TASK_ID='data_processing_pipe' AIRFLOW_CTX_EXECUTION_DATE='2024-03-09T21:16:28.052647+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-09T21:16:28.052647+00:00'
+[2024-03-09T21:16:54.453+0000] {pipeline.py:196} INFO - Missing pipeline option (runner). Executing pipeline using the default runner: DirectRunner.
+[2024-03-09T21:16:54.727+0000] {translations.py:712} INFO - ==================== <function annotate_downstream_side_inputs at 0x7fc3956d8c10> ====================
+[2024-03-09T21:16:54.728+0000] {translations.py:712} INFO - ==================== <function fix_side_input_pcoll_coders at 0x7fc3956d8d30> ====================
+[2024-03-09T21:16:54.729+0000] {translations.py:712} INFO - ==================== <function pack_combiners at 0x7fc3956d9280> ====================
+[2024-03-09T21:16:54.730+0000] {translations.py:712} INFO - ==================== <function lift_combiners at 0x7fc3956d9310> ====================
+[2024-03-09T21:16:54.730+0000] {translations.py:712} INFO - ==================== <function expand_sdf at 0x7fc3956d94c0> ====================
+[2024-03-09T21:16:54.731+0000] {translations.py:712} INFO - ==================== <function expand_gbk at 0x7fc3956d9550> ====================
+[2024-03-09T21:16:54.732+0000] {translations.py:712} INFO - ==================== <function sink_flattens at 0x7fc3956d9670> ====================
+[2024-03-09T21:16:54.732+0000] {translations.py:712} INFO - ==================== <function greedily_fuse at 0x7fc3956d9700> ====================
+[2024-03-09T21:16:54.734+0000] {translations.py:712} INFO - ==================== <function read_to_impulse at 0x7fc3956d9790> ====================
+[2024-03-09T21:16:54.735+0000] {translations.py:712} INFO - ==================== <function impulse_to_input at 0x7fc3956d9820> ====================
+[2024-03-09T21:16:54.735+0000] {translations.py:712} INFO - ==================== <function sort_stages at 0x7fc3956d9a60> ====================
+[2024-03-09T21:16:54.736+0000] {translations.py:712} INFO - ==================== <function add_impulse_to_dangling_transforms at 0x7fc3956d9b80> ====================
+[2024-03-09T21:16:54.736+0000] {translations.py:712} INFO - ==================== <function setup_timer_mapping at 0x7fc3956d99d0> ====================
+[2024-03-09T21:16:54.737+0000] {translations.py:712} INFO - ==================== <function populate_data_channel_coders at 0x7fc3956d9af0> ====================
+[2024-03-09T21:16:54.738+0000] {statecache.py:234} INFO - Creating state cache with size 104857600
+[2024-03-09T21:16:54.739+0000] {worker_handlers.py:922} INFO - Created Worker handler <apache_beam.runners.portability.fn_api_runner.worker_handlers.EmbeddedWorkerHandler object at 0x7fc3954cda00> for environment ref_Environment_default_environment_1 (beam:env:embedded_python:v1, b'')
+[2024-03-09T21:16:54.828+0000] {filebasedsink.py:230} WARNING - Deleting 1 existing files in target path matching: 
+[2024-03-09T21:16:54.858+0000] {filebasedsink.py:310} INFO - Starting finalize_write threads with num_shards: 1 (skipped: 0), batches: 1, num_threads: 1
+[2024-03-09T21:16:54.867+0000] {filebasedsink.py:357} INFO - Renamed 1 shards in 0.01 seconds.
+[2024-03-09T21:16:54.889+0000] {python.py:201} INFO - Done. Returned value was: None
+[2024-03-09T21:16:54.897+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=task2dag, task_id=data_processing_pipe, execution_date=20240309T211628, start_date=20240309T211654, end_date=20240309T211654
+[2024-03-09T21:16:54.948+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-09T21:16:54.970+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

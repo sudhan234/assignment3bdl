@@ -1,0 +1,13 @@
+[2024-03-02T18:42:03.968+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: task_1_dag.scrape_data_2021 manual__2024-03-02T18:41:57.938543+00:00 [queued]>
+[2024-03-02T18:42:03.979+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: task_1_dag.scrape_data_2021 manual__2024-03-02T18:41:57.938543+00:00 [queued]>
+[2024-03-02T18:42:03.980+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-03-02T18:42:03.999+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): scrape_data_2021> on 2024-03-02 18:41:57.938543+00:00
+[2024-03-02T18:42:04.007+0000] {standard_task_runner.py:60} INFO - Started process 1967 to run task
+[2024-03-02T18:42:04.013+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'task_1_dag', 'scrape_data_2021', 'manual__2024-03-02T18:41:57.938543+00:00', '--job-id', '382', '--raw', '--subdir', 'DAGS_FOLDER/check2.py', '--cfg-path', '/tmp/tmp5by134cx']
+[2024-03-02T18:42:04.018+0000] {standard_task_runner.py:88} INFO - Job 382: Subtask scrape_data_2021
+[2024-03-02T18:42:04.105+0000] {task_command.py:423} INFO - Running <TaskInstance: task_1_dag.scrape_data_2021 manual__2024-03-02T18:41:57.938543+00:00 [running]> on host e8513bfd2c92
+[2024-03-02T18:42:14.153+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 382 for task scrape_data_2021 ((psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8); 1967)
+[2024-03-02T18:42:14.640+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-03-02T18:42:14.666+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,25 @@
+[2024-03-10T12:25:51.941+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: task2dag.delete_csv manual__2024-03-10T12:14:32.846289+00:00 [queued]>
+[2024-03-10T12:25:51.957+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: task2dag.delete_csv manual__2024-03-10T12:14:32.846289+00:00 [queued]>
+[2024-03-10T12:25:51.958+0000] {taskinstance.py:2170} INFO - Starting attempt 2 of 2
+[2024-03-10T12:25:51.988+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): delete_csv> on 2024-03-10 12:14:32.846289+00:00
+[2024-03-10T12:25:52.004+0000] {standard_task_runner.py:60} INFO - Started process 3759 to run task
+[2024-03-10T12:25:52.009+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'task2dag', 'delete_csv', 'manual__2024-03-10T12:14:32.846289+00:00', '--job-id', '882', '--raw', '--subdir', 'DAGS_FOLDER/task2dag.py', '--cfg-path', '/tmp/tmp1bkclnd7']
+[2024-03-10T12:25:52.011+0000] {standard_task_runner.py:88} INFO - Job 882: Subtask delete_csv
+[2024-03-10T12:25:52.093+0000] {task_command.py:423} INFO - Running <TaskInstance: task2dag.delete_csv manual__2024-03-10T12:14:32.846289+00:00 [running]> on host 9268fe474086
+[2024-03-10T12:25:52.277+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='task2dag' AIRFLOW_CTX_TASK_ID='delete_csv' AIRFLOW_CTX_EXECUTION_DATE='2024-03-10T12:14:32.846289+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-10T12:14:32.846289+00:00'
+[2024-03-10T12:25:52.281+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-03-10T12:25:52.284+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'rm-r extracted_data/']
+[2024-03-10T12:25:52.322+0000] {subprocess.py:86} INFO - Output:
+[2024-03-10T12:25:52.328+0000] {subprocess.py:93} INFO - /usr/bin/bash: line 1: rm-r: command not found
+[2024-03-10T12:25:52.329+0000] {subprocess.py:97} INFO - Command exited with return code 127
+[2024-03-10T12:25:52.353+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 127.
+[2024-03-10T12:25:52.361+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=task2dag, task_id=delete_csv, execution_date=20240310T121432, start_date=20240310T122551, end_date=20240310T122552
+[2024-03-10T12:25:52.401+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 882 for task delete_csv (Bash command failed. The command returned a non-zero exit code 127.; 3759)
+[2024-03-10T12:25:52.463+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-03-10T12:25:52.493+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

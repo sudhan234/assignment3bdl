@@ -1,0 +1,10 @@
+[2024-03-09T15:25:42.159+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: task1dag.scrape_data_2020 scheduled__2024-03-04T00:00:00+00:00 [queued]>
+[2024-03-09T15:25:42.183+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: task1dag.scrape_data_2020 scheduled__2024-03-04T00:00:00+00:00 [queued]>
+[2024-03-09T15:25:42.184+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-03-09T15:25:42.227+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): scrape_data_2020> on 2024-03-04 00:00:00+00:00
+[2024-03-09T15:25:42.257+0000] {standard_task_runner.py:60} INFO - Started process 102 to run task
+[2024-03-09T15:25:42.326+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'task1dag', 'scrape_data_2020', 'scheduled__2024-03-04T00:00:00+00:00', '--job-id', '421', '--raw', '--subdir', 'DAGS_FOLDER/task1dag.py', '--cfg-path', '/tmp/tmp6d90hzsf']
+[2024-03-09T15:25:42.351+0000] {standard_task_runner.py:88} INFO - Job 421: Subtask scrape_data_2020
+[2024-03-09T15:25:42.909+0000] {task_command.py:423} INFO - Running <TaskInstance: task1dag.scrape_data_2020 scheduled__2024-03-04T00:00:00+00:00 [running]> on host dde2eb23f30a
+[2024-03-09T15:25:43.540+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='task1dag' AIRFLOW_CTX_TASK_ID='scrape_data_2020' AIRFLOW_CTX_EXECUTION_DATE='2024-03-04T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-04T00:00:00+00:00'
+[2024-03-09T15:25:43.585+0000] {logging_mixin.py:188} INFO - cwd: /opt/***

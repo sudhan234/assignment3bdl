@@ -1,0 +1,617 @@
+[2024-03-01T09:33:41.876+0000] {processor.py:161} INFO - Started process (PID=4874) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:33:41.878+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:33:41.880+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:33:41.879+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:33:41.918+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:33:41.945+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.074 seconds
+[2024-03-01T09:34:12.353+0000] {processor.py:161} INFO - Started process (PID=4930) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:34:12.356+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:34:12.358+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:34:12.358+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:34:12.386+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:34:12.415+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.069 seconds
+[2024-03-01T09:34:43.109+0000] {processor.py:161} INFO - Started process (PID=4986) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:34:43.112+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:34:43.115+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:34:43.114+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:34:43.145+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:34:43.175+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.082 seconds
+[2024-03-01T09:35:13.757+0000] {processor.py:161} INFO - Started process (PID=5042) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:35:13.759+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:35:13.760+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:35:13.760+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:35:13.781+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:35:13.801+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.050 seconds
+[2024-03-01T09:35:28.948+0000] {processor.py:161} INFO - Started process (PID=5061) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:35:28.950+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:35:28.952+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:35:28.952+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:35:29.003+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:35:29.027+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.084 seconds
+[2024-03-01T09:35:59.331+0000] {processor.py:161} INFO - Started process (PID=5117) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:35:59.333+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:35:59.335+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:35:59.335+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:35:59.361+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:35:59.386+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.061 seconds
+[2024-03-01T09:36:29.848+0000] {processor.py:161} INFO - Started process (PID=5173) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:36:29.850+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:36:29.852+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:36:29.851+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:36:29.871+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:36:29.893+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.050 seconds
+[2024-03-01T09:37:00.532+0000] {processor.py:161} INFO - Started process (PID=5229) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:37:00.534+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:37:00.536+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:37:00.535+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:37:00.556+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:37:00.576+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.051 seconds
+[2024-03-01T09:37:31.156+0000] {processor.py:161} INFO - Started process (PID=5285) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:37:31.158+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:37:31.160+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:37:31.160+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:37:31.179+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:37:31.200+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.049 seconds
+[2024-03-01T09:37:45.811+0000] {processor.py:161} INFO - Started process (PID=5321) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:37:45.812+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:37:45.814+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:37:45.814+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:37:45.861+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:37:45.853+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/t1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/t1.py", line 10, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2024-03-01T09:37:45.863+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:37:45.902+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.095 seconds
+[2024-03-01T09:37:57.177+0000] {processor.py:161} INFO - Started process (PID=5340) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:37:57.179+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:37:57.181+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:37:57.181+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:37:57.226+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:37:57.219+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/t1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/t1.py", line 10, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2024-03-01T09:37:57.230+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:37:57.269+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.097 seconds
+[2024-03-01T09:38:27.569+0000] {processor.py:161} INFO - Started process (PID=5396) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:38:27.571+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:38:27.573+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:38:27.572+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:38:27.597+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:38:27.592+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/t1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/t1.py", line 10, in <module>
+    'retry_delay': timedelta(minutes=5),
+NameError: name 'timedelta' is not defined
+[2024-03-01T09:38:27.599+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:38:27.638+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.073 seconds
+[2024-03-01T09:38:37.957+0000] {processor.py:161} INFO - Started process (PID=5407) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:38:37.960+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:38:37.962+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:38:37.961+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:38:38.005+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:38:37.999+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/t1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/t1.py", line 17, in <module>
+    start_date=days_ago(1),
+NameError: name 'days_ago' is not defined
+[2024-03-01T09:38:38.008+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:38:38.050+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.099 seconds
+[2024-03-01T09:39:00.339+0000] {processor.py:161} INFO - Started process (PID=5453) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:39:00.340+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:39:00.342+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:39:00.342+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:39:00.400+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:39:00.380+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/t1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/t1.py", line 12, in <module>
+    dag = DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 557, in __init__
+    raise ValueError("DAG is missing the start_date parameter")
+ValueError: DAG is missing the start_date parameter
+[2024-03-01T09:39:00.403+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:39:00.436+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.102 seconds
+[2024-03-01T09:39:31.198+0000] {processor.py:161} INFO - Started process (PID=5509) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:39:31.199+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:39:31.201+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:39:31.200+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:39:31.227+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:39:31.221+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/t1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/t1.py", line 12, in <module>
+    dag = DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 557, in __init__
+    raise ValueError("DAG is missing the start_date parameter")
+ValueError: DAG is missing the start_date parameter
+[2024-03-01T09:39:31.230+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:39:31.271+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.078 seconds
+[2024-03-01T09:40:01.627+0000] {processor.py:161} INFO - Started process (PID=5565) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:40:01.629+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:40:01.631+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:40:01.631+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:40:01.657+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:40:01.651+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/t1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/t1.py", line 12, in <module>
+    dag = DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 557, in __init__
+    raise ValueError("DAG is missing the start_date parameter")
+ValueError: DAG is missing the start_date parameter
+[2024-03-01T09:40:01.660+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:40:01.699+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.077 seconds
+[2024-03-01T09:40:32.400+0000] {processor.py:161} INFO - Started process (PID=5621) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:40:32.402+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:40:32.403+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:40:32.403+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:40:32.434+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:40:32.426+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/t1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/t1.py", line 12, in <module>
+    dag = DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 557, in __init__
+    raise ValueError("DAG is missing the start_date parameter")
+ValueError: DAG is missing the start_date parameter
+[2024-03-01T09:40:32.437+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:40:32.483+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.090 seconds
+[2024-03-01T09:41:02.663+0000] {processor.py:161} INFO - Started process (PID=5677) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:41:02.664+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:41:02.666+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:41:02.665+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:41:02.703+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:41:02.697+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/t1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/t1.py", line 12, in <module>
+    dag = DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 557, in __init__
+    raise ValueError("DAG is missing the start_date parameter")
+ValueError: DAG is missing the start_date parameter
+[2024-03-01T09:41:02.705+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:41:02.732+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.075 seconds
+[2024-03-01T09:41:33.146+0000] {processor.py:161} INFO - Started process (PID=5733) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:41:33.147+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:41:33.150+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:41:33.149+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:41:33.172+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:41:33.166+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/t1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/t1.py", line 12, in <module>
+    dag = DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 557, in __init__
+    raise ValueError("DAG is missing the start_date parameter")
+ValueError: DAG is missing the start_date parameter
+[2024-03-01T09:41:33.174+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:41:33.214+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.073 seconds
+[2024-03-01T09:41:53.728+0000] {processor.py:161} INFO - Started process (PID=5789) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:41:53.729+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:41:53.731+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:41:53.731+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:41:53.784+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:41:53.775+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/t1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/backports/zoneinfo/_common.py", line 15, in load_tzdata
+    return importlib_resources.open_binary(package_name, resource_name)
+  File "/usr/local/lib/python3.8/importlib/resources.py", line 91, in open_binary
+    return reader.open_resource(resource)
+  File "<frozen importlib._bootstrap_external>", line 1048, in open_resource
+FileNotFoundError: [Errno 2] No such file or directory: '/home/airflow/.local/lib/python3.8/site-packages/tzdata/zoneinfo/IST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/pendulum/tz/timezone.py", line 65, in __new__
+    return super().__new__(cls, key)  # type: ignore[call-arg]
+  File "/home/airflow/.local/lib/python3.8/site-packages/backports/zoneinfo/_common.py", line 27, in load_tzdata
+    raise ZoneInfoNotFoundError(f"No time zone found with key {key}")
+backports.zoneinfo._common.ZoneInfoNotFoundError: 'No time zone found with key IST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/t1.py", line 17, in <module>
+    start_date=pendulum.datetime(2024, 3, 1, tz="IST"),
+  File "/home/airflow/.local/lib/python3.8/site-packages/pendulum/__init__.py", line 143, in datetime
+    return DateTime.create(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pendulum/datetime.py", line 103, in create
+    tz = pendulum._safe_timezone(tz)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pendulum/__init__.py", line 124, in _safe_timezone
+    return timezone(obj)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pendulum/__init__.py", line 86, in timezone
+    return Timezone(name)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pendulum/tz/timezone.py", line 67, in __new__
+    raise InvalidTimezone(key)
+pendulum.tz.exceptions.InvalidTimezone: IST
+[2024-03-01T09:41:53.785+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:41:53.831+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.108 seconds
+[2024-03-01T09:42:24.221+0000] {processor.py:161} INFO - Started process (PID=5845) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:42:24.223+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:42:24.224+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:42:24.224+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:42:24.253+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:42:24.246+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/t1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/backports/zoneinfo/_common.py", line 15, in load_tzdata
+    return importlib_resources.open_binary(package_name, resource_name)
+  File "/usr/local/lib/python3.8/importlib/resources.py", line 91, in open_binary
+    return reader.open_resource(resource)
+  File "<frozen importlib._bootstrap_external>", line 1048, in open_resource
+FileNotFoundError: [Errno 2] No such file or directory: '/home/airflow/.local/lib/python3.8/site-packages/tzdata/zoneinfo/IST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/pendulum/tz/timezone.py", line 65, in __new__
+    return super().__new__(cls, key)  # type: ignore[call-arg]
+  File "/home/airflow/.local/lib/python3.8/site-packages/backports/zoneinfo/_common.py", line 27, in load_tzdata
+    raise ZoneInfoNotFoundError(f"No time zone found with key {key}")
+backports.zoneinfo._common.ZoneInfoNotFoundError: 'No time zone found with key IST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/t1.py", line 17, in <module>
+    start_date=pendulum.datetime(2024, 3, 1, tz="IST"),
+  File "/home/airflow/.local/lib/python3.8/site-packages/pendulum/__init__.py", line 143, in datetime
+    return DateTime.create(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pendulum/datetime.py", line 103, in create
+    tz = pendulum._safe_timezone(tz)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pendulum/__init__.py", line 124, in _safe_timezone
+    return timezone(obj)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pendulum/__init__.py", line 86, in timezone
+    return Timezone(name)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pendulum/tz/timezone.py", line 67, in __new__
+    raise InvalidTimezone(key)
+pendulum.tz.exceptions.InvalidTimezone: IST
+[2024-03-01T09:42:24.254+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:42:24.292+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.077 seconds
+[2024-03-01T09:42:54.432+0000] {processor.py:161} INFO - Started process (PID=5901) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:42:54.434+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:42:54.436+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:42:54.435+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:42:54.462+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:42:54.455+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/t1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/backports/zoneinfo/_common.py", line 15, in load_tzdata
+    return importlib_resources.open_binary(package_name, resource_name)
+  File "/usr/local/lib/python3.8/importlib/resources.py", line 91, in open_binary
+    return reader.open_resource(resource)
+  File "<frozen importlib._bootstrap_external>", line 1048, in open_resource
+FileNotFoundError: [Errno 2] No such file or directory: '/home/airflow/.local/lib/python3.8/site-packages/tzdata/zoneinfo/IST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/pendulum/tz/timezone.py", line 65, in __new__
+    return super().__new__(cls, key)  # type: ignore[call-arg]
+  File "/home/airflow/.local/lib/python3.8/site-packages/backports/zoneinfo/_common.py", line 27, in load_tzdata
+    raise ZoneInfoNotFoundError(f"No time zone found with key {key}")
+backports.zoneinfo._common.ZoneInfoNotFoundError: 'No time zone found with key IST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/t1.py", line 17, in <module>
+    start_date=pendulum.datetime(2024, 3, 1, tz="IST"),
+  File "/home/airflow/.local/lib/python3.8/site-packages/pendulum/__init__.py", line 143, in datetime
+    return DateTime.create(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pendulum/datetime.py", line 103, in create
+    tz = pendulum._safe_timezone(tz)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pendulum/__init__.py", line 124, in _safe_timezone
+    return timezone(obj)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pendulum/__init__.py", line 86, in timezone
+    return Timezone(name)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pendulum/tz/timezone.py", line 67, in __new__
+    raise InvalidTimezone(key)
+pendulum.tz.exceptions.InvalidTimezone: IST
+[2024-03-01T09:42:54.463+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:42:54.490+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.062 seconds
+[2024-03-01T09:43:24.830+0000] {processor.py:161} INFO - Started process (PID=5957) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:43:24.832+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:43:24.834+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:43:24.833+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:43:24.865+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:43:24.857+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/t1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/backports/zoneinfo/_common.py", line 15, in load_tzdata
+    return importlib_resources.open_binary(package_name, resource_name)
+  File "/usr/local/lib/python3.8/importlib/resources.py", line 91, in open_binary
+    return reader.open_resource(resource)
+  File "<frozen importlib._bootstrap_external>", line 1048, in open_resource
+FileNotFoundError: [Errno 2] No such file or directory: '/home/airflow/.local/lib/python3.8/site-packages/tzdata/zoneinfo/IST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/pendulum/tz/timezone.py", line 65, in __new__
+    return super().__new__(cls, key)  # type: ignore[call-arg]
+  File "/home/airflow/.local/lib/python3.8/site-packages/backports/zoneinfo/_common.py", line 27, in load_tzdata
+    raise ZoneInfoNotFoundError(f"No time zone found with key {key}")
+backports.zoneinfo._common.ZoneInfoNotFoundError: 'No time zone found with key IST'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/t1.py", line 17, in <module>
+    start_date=pendulum.datetime(2024, 3, 1, tz="IST"),
+  File "/home/airflow/.local/lib/python3.8/site-packages/pendulum/__init__.py", line 143, in datetime
+    return DateTime.create(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pendulum/datetime.py", line 103, in create
+    tz = pendulum._safe_timezone(tz)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pendulum/__init__.py", line 124, in _safe_timezone
+    return timezone(obj)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pendulum/__init__.py", line 86, in timezone
+    return Timezone(name)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pendulum/tz/timezone.py", line 67, in __new__
+    raise InvalidTimezone(key)
+pendulum.tz.exceptions.InvalidTimezone: IST
+[2024-03-01T09:43:24.867+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:43:24.913+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.088 seconds
+[2024-03-01T09:43:35.025+0000] {processor.py:161} INFO - Started process (PID=5958) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:43:35.027+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:43:35.030+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:43:35.029+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:43:35.077+0000] {processor.py:840} INFO - DAG(s) 'fetch_ncei_data' retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:43:35.317+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:43:35.316+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:fetch_ncei_data
+[2024-03-01T09:43:35.337+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:43:35.336+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:fetch_ncei_data
+[2024-03-01T09:43:35.350+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:43:35.350+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:fetch_ncei_data
+[2024-03-01T09:43:35.352+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:43:35.351+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-01T09:43:35.373+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:43:35.372+0000] {dag.py:3058} INFO - Creating ORM DAG for fetch_ncei_data
+[2024-03-01T09:43:35.399+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:43:35.398+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_ncei_data to 2024-03-01 00:00:00+00:00, run_after=2024-03-02 00:00:00+00:00
+[2024-03-01T09:43:35.453+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.433 seconds
+[2024-03-01T09:43:46.342+0000] {processor.py:161} INFO - Started process (PID=5981) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:43:46.344+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:43:46.345+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:43:46.345+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:43:46.391+0000] {processor.py:840} INFO - DAG(s) 'fetch_ncei_data' retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:43:46.411+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:43:46.411+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-01T09:43:46.452+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:43:46.452+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_ncei_data to 2024-03-01 00:00:00+00:00, run_after=2024-03-02 00:00:00+00:00
+[2024-03-01T09:43:46.494+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.157 seconds
+[2024-03-01T09:43:47.511+0000] {processor.py:161} INFO - Started process (PID=5982) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:43:47.514+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:43:47.519+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:43:47.517+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:43:47.556+0000] {processor.py:840} INFO - DAG(s) 'fetch_ncei_data' retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:43:47.577+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:43:47.577+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-01T09:43:47.624+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:43:47.623+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_ncei_data to 2024-03-01 00:00:00+00:00, run_after=2024-03-02 00:00:00+00:00
+[2024-03-01T09:43:47.665+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.161 seconds
+[2024-03-01T09:44:17.769+0000] {processor.py:161} INFO - Started process (PID=6038) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:44:17.772+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:44:17.775+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:44:17.774+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:44:17.827+0000] {processor.py:840} INFO - DAG(s) 'fetch_ncei_data' retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:44:17.857+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:44:17.857+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-01T09:44:17.898+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:44:17.897+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_ncei_data to 2024-03-01 00:00:00+00:00, run_after=2024-03-02 00:00:00+00:00
+[2024-03-01T09:44:17.942+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.180 seconds
+[2024-03-01T09:44:48.278+0000] {processor.py:161} INFO - Started process (PID=6094) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:44:48.280+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:44:48.282+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:44:48.281+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:44:48.314+0000] {processor.py:840} INFO - DAG(s) 'fetch_ncei_data' retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:44:48.352+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:44:48.352+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-01T09:44:48.397+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:44:48.397+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_ncei_data to 2024-03-01 00:00:00+00:00, run_after=2024-03-02 00:00:00+00:00
+[2024-03-01T09:44:48.445+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.175 seconds
+[2024-03-01T09:44:49.536+0000] {processor.py:161} INFO - Started process (PID=6103) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:44:49.539+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:44:49.541+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:44:49.541+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:44:49.589+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:44:49.581+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/t1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/t1.py", line 14, in <module>
+    dag = DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 557, in __init__
+    raise ValueError("DAG is missing the start_date parameter")
+ValueError: DAG is missing the start_date parameter
+[2024-03-01T09:44:49.592+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:44:49.634+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.108 seconds
+[2024-03-01T09:45:00.456+0000] {processor.py:161} INFO - Started process (PID=6129) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:45:00.457+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:45:00.460+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:45:00.459+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:45:00.506+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:45:00.497+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/t1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/t1.py", line 14, in <module>
+    dag = DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 557, in __init__
+    raise ValueError("DAG is missing the start_date parameter")
+ValueError: DAG is missing the start_date parameter
+[2024-03-01T09:45:00.508+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:45:00.551+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.099 seconds
+[2024-03-01T09:45:01.500+0000] {processor.py:161} INFO - Started process (PID=6130) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:45:01.503+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:45:01.505+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:45:01.505+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:45:01.534+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:45:01.527+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/t1.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/t1.py", line 14, in <module>
+    dag = DAG(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 557, in __init__
+    raise ValueError("DAG is missing the start_date parameter")
+ValueError: DAG is missing the start_date parameter
+[2024-03-01T09:45:01.537+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:45:01.570+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.076 seconds
+[2024-03-01T09:45:18.823+0000] {processor.py:161} INFO - Started process (PID=6153) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:45:18.825+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:45:18.827+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:45:18.827+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:45:18.888+0000] {processor.py:840} INFO - DAG(s) 'fetch_ncei_data' retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:45:19.090+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:45:19.089+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-01T09:45:19.112+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:45:19.112+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_ncei_data to None, run_after=None
+[2024-03-01T09:45:19.163+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.345 seconds
+[2024-03-01T09:45:49.467+0000] {processor.py:161} INFO - Started process (PID=6215) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:45:49.469+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:45:49.471+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:45:49.471+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:45:49.494+0000] {processor.py:840} INFO - DAG(s) 'fetch_ncei_data' retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:45:49.525+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:45:49.524+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-01T09:45:49.548+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:45:49.548+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_ncei_data to None, run_after=None
+[2024-03-01T09:45:49.605+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.144 seconds
+[2024-03-01T09:46:04.661+0000] {processor.py:161} INFO - Started process (PID=6243) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:46:04.663+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:46:04.665+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:46:04.664+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:46:04.712+0000] {processor.py:840} INFO - DAG(s) 'fetch_ncei_data' retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:46:04.908+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:46:04.907+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-01T09:46:04.929+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:46:04.929+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_ncei_data to None, run_after=None
+[2024-03-01T09:46:04.975+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.318 seconds
+[2024-03-01T09:46:35.249+0000] {processor.py:161} INFO - Started process (PID=6299) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:46:35.250+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:46:35.252+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:46:35.251+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:46:35.274+0000] {processor.py:840} INFO - DAG(s) 'fetch_ncei_data' retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:46:35.305+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:46:35.304+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-01T09:46:35.329+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:46:35.329+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_ncei_data to None, run_after=None
+[2024-03-01T09:46:35.365+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.120 seconds
+[2024-03-01T09:47:05.830+0000] {processor.py:161} INFO - Started process (PID=6355) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:47:05.832+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:47:05.834+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:47:05.833+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:47:05.857+0000] {processor.py:840} INFO - DAG(s) 'fetch_ncei_data' retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:47:05.887+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:47:05.887+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-01T09:47:05.910+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:47:05.910+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_ncei_data to None, run_after=None
+[2024-03-01T09:47:05.960+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.135 seconds
+[2024-03-01T09:47:36.090+0000] {processor.py:161} INFO - Started process (PID=6411) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:47:36.091+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:47:36.093+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:47:36.092+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:47:36.118+0000] {processor.py:840} INFO - DAG(s) 'fetch_ncei_data' retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:47:36.148+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:47:36.147+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-01T09:47:36.168+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:47:36.168+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_ncei_data to None, run_after=None
+[2024-03-01T09:47:36.200+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.115 seconds
+[2024-03-01T09:47:39.140+0000] {processor.py:161} INFO - Started process (PID=6412) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:47:39.142+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:47:39.144+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:47:39.144+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:47:39.185+0000] {processor.py:840} INFO - DAG(s) 'fetch_ncei_data' retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:47:39.218+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:47:39.218+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-01T09:47:39.242+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:47:39.241+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_ncei_data to None, run_after=None
+[2024-03-01T09:47:39.290+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.155 seconds
+[2024-03-01T09:48:09.882+0000] {processor.py:161} INFO - Started process (PID=6468) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:48:09.884+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:48:09.887+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:48:09.885+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:48:09.910+0000] {processor.py:840} INFO - DAG(s) 'fetch_ncei_data' retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:48:09.941+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:48:09.940+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-01T09:48:09.965+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:48:09.965+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_ncei_data to None, run_after=None
+[2024-03-01T09:48:10.013+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.136 seconds
+[2024-03-01T09:48:23.111+0000] {processor.py:161} INFO - Started process (PID=6499) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:48:23.113+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:48:23.115+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:48:23.115+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:48:23.156+0000] {processor.py:840} INFO - DAG(s) 'fetch_ncei_data' retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:48:23.348+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:48:23.347+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-01T09:48:23.368+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:48:23.368+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_ncei_data to None, run_after=None
+[2024-03-01T09:48:23.421+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.318 seconds
+[2024-03-01T09:48:53.849+0000] {processor.py:161} INFO - Started process (PID=6556) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:48:53.851+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:48:53.854+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:48:53.853+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:48:53.879+0000] {processor.py:840} INFO - DAG(s) 'fetch_ncei_data' retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:48:53.911+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:48:53.910+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-01T09:48:53.938+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:48:53.938+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_ncei_data to None, run_after=None
+[2024-03-01T09:48:53.980+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.136 seconds
+[2024-03-01T09:49:24.345+0000] {processor.py:161} INFO - Started process (PID=6612) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:49:24.347+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:49:24.349+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:49:24.349+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:49:24.369+0000] {processor.py:840} INFO - DAG(s) 'fetch_ncei_data' retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:49:24.402+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:49:24.402+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-01T09:49:24.426+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:49:24.426+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_ncei_data to None, run_after=None
+[2024-03-01T09:49:24.461+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.124 seconds
+[2024-03-01T09:49:54.670+0000] {processor.py:161} INFO - Started process (PID=6668) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:49:54.672+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:49:54.676+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:49:54.675+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:49:54.705+0000] {processor.py:840} INFO - DAG(s) 'fetch_ncei_data' retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:49:54.739+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:49:54.739+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-01T09:49:54.767+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:49:54.766+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_ncei_data to None, run_after=None
+[2024-03-01T09:49:54.802+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.140 seconds
+[2024-03-01T09:50:25.062+0000] {processor.py:161} INFO - Started process (PID=6724) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:50:25.064+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:50:25.066+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:50:25.066+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:50:25.092+0000] {processor.py:840} INFO - DAG(s) 'fetch_ncei_data' retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:50:25.130+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:50:25.129+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-01T09:50:25.159+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:50:25.158+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_ncei_data to None, run_after=None
+[2024-03-01T09:50:25.198+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.141 seconds
+[2024-03-01T09:50:33.520+0000] {processor.py:161} INFO - Started process (PID=6748) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:50:33.522+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:50:33.524+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:50:33.524+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:50:33.572+0000] {processor.py:840} INFO - DAG(s) 'fetch_ncei_data' retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:50:33.753+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:50:33.752+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-01T09:50:33.793+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:50:33.793+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_ncei_data to 2024-02-01 00:00:00+00:00, run_after=2024-02-02 00:00:00+00:00
+[2024-03-01T09:50:33.845+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.330 seconds
+[2024-03-01T09:51:04.902+0000] {processor.py:161} INFO - Started process (PID=6804) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:51:04.903+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:51:04.905+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:51:04.905+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:51:04.936+0000] {processor.py:840} INFO - DAG(s) 'fetch_ncei_data' retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:51:04.966+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:51:04.966+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-01T09:51:05.004+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:51:05.004+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_ncei_data to 2024-02-01 00:00:00+00:00, run_after=2024-02-02 00:00:00+00:00
+[2024-03-01T09:51:05.041+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.143 seconds
+[2024-03-01T09:51:35.159+0000] {processor.py:161} INFO - Started process (PID=6860) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:51:35.161+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:51:35.164+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:51:35.163+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:51:35.196+0000] {processor.py:840} INFO - DAG(s) 'fetch_ncei_data' retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:51:35.231+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:51:35.230+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-01T09:51:35.280+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:51:35.280+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_ncei_data to 2024-02-01 00:00:00+00:00, run_after=2024-02-02 00:00:00+00:00
+[2024-03-01T09:51:35.320+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.166 seconds
+[2024-03-01T09:51:58.466+0000] {processor.py:161} INFO - Started process (PID=6900) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:51:58.468+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:51:58.469+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:51:58.469+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:51:58.513+0000] {processor.py:840} INFO - DAG(s) 'fetch_ncei_data' retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:51:58.704+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:51:58.703+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-01T09:51:58.751+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:51:58.751+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_ncei_data to 2024-02-01 00:00:00+00:00, run_after=2024-02-02 00:00:00+00:00
+[2024-03-01T09:51:58.803+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.341 seconds
+[2024-03-01T09:52:04.410+0000] {processor.py:161} INFO - Started process (PID=6917) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:52:04.412+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:52:04.414+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:52:04.414+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:52:04.464+0000] {processor.py:840} INFO - DAG(s) 'fetch_ncei_data' retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:52:04.483+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:52:04.482+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-01T09:52:04.529+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:52:04.528+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_ncei_data to 2024-02-01 00:00:00+00:00, run_after=2024-02-02 00:00:00+00:00
+[2024-03-01T09:52:04.578+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.174 seconds
+[2024-03-01T09:52:35.218+0000] {processor.py:161} INFO - Started process (PID=6973) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:52:35.220+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:52:35.221+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:52:35.221+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:52:35.248+0000] {processor.py:840} INFO - DAG(s) 'fetch_ncei_data' retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:52:35.276+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:52:35.276+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-01T09:52:35.313+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:52:35.313+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_ncei_data to 2024-02-01 00:00:00+00:00, run_after=2024-02-02 00:00:00+00:00
+[2024-03-01T09:52:35.355+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.142 seconds
+[2024-03-01T09:53:05.874+0000] {processor.py:161} INFO - Started process (PID=7029) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:53:05.876+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:53:05.878+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:53:05.877+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:53:05.906+0000] {processor.py:840} INFO - DAG(s) 'fetch_ncei_data' retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:53:05.935+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:53:05.934+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-01T09:53:05.972+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:53:05.972+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_ncei_data to 2024-02-01 00:00:00+00:00, run_after=2024-02-02 00:00:00+00:00
+[2024-03-01T09:53:06.009+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.140 seconds
+[2024-03-01T09:53:24.221+0000] {processor.py:161} INFO - Started process (PID=7050) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:53:24.223+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:53:24.230+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:53:24.226+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:53:24.292+0000] {processor.py:840} INFO - DAG(s) 'fetch_ncei_data' retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:53:24.481+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:53:24.481+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-01T09:53:24.521+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:53:24.521+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_ncei_data to 2024-02-01 00:00:00+00:00, run_after=2024-02-02 00:00:00+00:00
+[2024-03-01T09:53:24.570+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.355 seconds
+[2024-03-01T09:53:37.333+0000] {processor.py:161} INFO - Started process (PID=7086) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:53:37.334+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:53:37.336+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:53:37.336+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:53:37.382+0000] {processor.py:840} INFO - DAG(s) 'fetch_ncei_data' retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:53:37.402+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:53:37.401+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-01T09:53:37.443+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:53:37.442+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_ncei_data to 2024-02-01 00:00:00+00:00, run_after=2024-02-02 00:00:00+00:00
+[2024-03-01T09:53:37.487+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.158 seconds
+[2024-03-01T09:54:00.209+0000] {processor.py:161} INFO - Started process (PID=7126) to work on /opt/airflow/dags/t1.py
+[2024-03-01T09:54:00.211+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/t1.py for tasks to queue
+[2024-03-01T09:54:00.212+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:54:00.212+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/t1.py
+[2024-03-01T09:54:00.263+0000] {processor.py:840} INFO - DAG(s) 'fetch_ncei_data' retrieved from /opt/airflow/dags/t1.py
+[2024-03-01T09:54:00.486+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:54:00.485+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-01T09:54:00.529+0000] {logging_mixin.py:188} INFO - [2024-03-01T09:54:00.528+0000] {dag.py:3823} INFO - Setting next_dagrun for fetch_ncei_data to 2024-02-01 00:00:00+00:00, run_after=2024-02-02 00:00:00+00:00
+[2024-03-01T09:54:00.574+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/t1.py took 0.370 seconds

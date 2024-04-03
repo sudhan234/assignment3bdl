@@ -1,0 +1,161 @@
+[2024-03-09T21:44:57.857+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: task2dag.data_processing_pipe manual__2024-03-09T21:44:31.399250+00:00 [queued]>
+[2024-03-09T21:44:57.866+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: task2dag.data_processing_pipe manual__2024-03-09T21:44:31.399250+00:00 [queued]>
+[2024-03-09T21:44:57.867+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-03-09T21:44:57.880+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): data_processing_pipe> on 2024-03-09 21:44:31.399250+00:00
+[2024-03-09T21:44:57.891+0000] {standard_task_runner.py:60} INFO - Started process 1110 to run task
+[2024-03-09T21:44:57.894+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'task2dag', 'data_processing_pipe', 'manual__2024-03-09T21:44:31.399250+00:00', '--job-id', '828', '--raw', '--subdir', 'DAGS_FOLDER/task2dag.py', '--cfg-path', '/tmp/tmpnsb_vcov']
+[2024-03-09T21:44:57.895+0000] {standard_task_runner.py:88} INFO - Job 828: Subtask data_processing_pipe
+[2024-03-09T21:44:57.935+0000] {task_command.py:423} INFO - Running <TaskInstance: task2dag.data_processing_pipe manual__2024-03-09T21:44:31.399250+00:00 [running]> on host 9268fe474086
+[2024-03-09T21:44:58.012+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='task2dag' AIRFLOW_CTX_TASK_ID='data_processing_pipe' AIRFLOW_CTX_EXECUTION_DATE='2024-03-09T21:44:31.399250+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-09T21:44:31.399250+00:00'
+[2024-03-09T21:44:58.018+0000] {pipeline.py:196} INFO - Missing pipeline option (runner). Executing pipeline using the default runner: DirectRunner.
+[2024-03-09T21:44:58.488+0000] {translations.py:712} INFO - ==================== <function annotate_downstream_side_inputs at 0x7fc3956eb670> ====================
+[2024-03-09T21:44:58.489+0000] {translations.py:712} INFO - ==================== <function fix_side_input_pcoll_coders at 0x7fc3956eb790> ====================
+[2024-03-09T21:44:58.490+0000] {translations.py:712} INFO - ==================== <function pack_combiners at 0x7fc3956ebca0> ====================
+[2024-03-09T21:44:58.491+0000] {translations.py:712} INFO - ==================== <function lift_combiners at 0x7fc3956ebd30> ====================
+[2024-03-09T21:44:58.491+0000] {translations.py:712} INFO - ==================== <function expand_sdf at 0x7fc3956ebee0> ====================
+[2024-03-09T21:44:58.492+0000] {translations.py:712} INFO - ==================== <function expand_gbk at 0x7fc3956ebf70> ====================
+[2024-03-09T21:44:58.492+0000] {translations.py:712} INFO - ==================== <function sink_flattens at 0x7fc3956ed0d0> ====================
+[2024-03-09T21:44:58.493+0000] {translations.py:712} INFO - ==================== <function greedily_fuse at 0x7fc3956ed160> ====================
+[2024-03-09T21:44:58.494+0000] {translations.py:712} INFO - ==================== <function read_to_impulse at 0x7fc3956ed1f0> ====================
+[2024-03-09T21:44:58.495+0000] {translations.py:712} INFO - ==================== <function impulse_to_input at 0x7fc3956ed280> ====================
+[2024-03-09T21:44:58.496+0000] {translations.py:712} INFO - ==================== <function sort_stages at 0x7fc3956ed4c0> ====================
+[2024-03-09T21:44:58.496+0000] {translations.py:712} INFO - ==================== <function add_impulse_to_dangling_transforms at 0x7fc3956ed5e0> ====================
+[2024-03-09T21:44:58.497+0000] {translations.py:712} INFO - ==================== <function setup_timer_mapping at 0x7fc3956ed430> ====================
+[2024-03-09T21:44:58.497+0000] {translations.py:712} INFO - ==================== <function populate_data_channel_coders at 0x7fc3956ed550> ====================
+[2024-03-09T21:44:58.501+0000] {statecache.py:234} INFO - Creating state cache with size 104857600
+[2024-03-09T21:44:58.503+0000] {worker_handlers.py:922} INFO - Created Worker handler <apache_beam.runners.portability.fn_api_runner.worker_handlers.EmbeddedWorkerHandler object at 0x7fc395901670> for environment ref_Environment_default_environment_1 (beam:env:embedded_python:v1, b'')
+[2024-03-09T21:44:58.600+0000] {bundle_processor.py:237} ERROR - "DATE [while running 'Read and Clean CSVs']"
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'DATE'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "apache_beam/runners/common.py", line 1435, in apache_beam.runners.common.DoFnRunner.process
+  File "apache_beam/runners/common.py", line 851, in apache_beam.runners.common.PerWindowInvoker.invoke_process
+  File "apache_beam/runners/common.py", line 997, in apache_beam.runners.common.PerWindowInvoker._invoke_process_per_window
+  File "/opt/airflow/dags/task2dag.py", line 91, in process
+    df['MONTH']=df['DATE'].apply(get_date_month)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'DATE'
+[2024-03-09T21:44:58.629+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'DATE'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "apache_beam/runners/common.py", line 1435, in apache_beam.runners.common.DoFnRunner.process
+  File "apache_beam/runners/common.py", line 851, in apache_beam.runners.common.PerWindowInvoker.invoke_process
+  File "apache_beam/runners/common.py", line 997, in apache_beam.runners.common.PerWindowInvoker._invoke_process_per_window
+  File "/opt/airflow/dags/task2dag.py", line 91, in process
+    df['MONTH']=df['DATE'].apply(get_date_month)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'DATE'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/task2dag.py", line 145, in run_processing_pipeline
+    output=(
+  File "/home/airflow/.local/lib/python3.8/site-packages/apache_beam/pipeline.py", line 612, in __exit__
+    self.result = self.run()
+  File "/home/airflow/.local/lib/python3.8/site-packages/apache_beam/pipeline.py", line 586, in run
+    return self.runner.run_pipeline(self, self._options)
+  File "/home/airflow/.local/lib/python3.8/site-packages/apache_beam/runners/direct/direct_runner.py", line 128, in run_pipeline
+    return runner.run_pipeline(pipeline, options)
+  File "/home/airflow/.local/lib/python3.8/site-packages/apache_beam/runners/portability/fn_api_runner/fn_runner.py", line 202, in run_pipeline
+    self._latest_run_result = self.run_via_runner_api(
+  File "/home/airflow/.local/lib/python3.8/site-packages/apache_beam/runners/portability/fn_api_runner/fn_runner.py", line 224, in run_via_runner_api
+    return self.run_stages(stage_context, stages)
+  File "/home/airflow/.local/lib/python3.8/site-packages/apache_beam/runners/portability/fn_api_runner/fn_runner.py", line 466, in run_stages
+    bundle_results = self._execute_bundle(
+  File "/home/airflow/.local/lib/python3.8/site-packages/apache_beam/runners/portability/fn_api_runner/fn_runner.py", line 794, in _execute_bundle
+    self._run_bundle(
+  File "/home/airflow/.local/lib/python3.8/site-packages/apache_beam/runners/portability/fn_api_runner/fn_runner.py", line 1031, in _run_bundle
+    result, splits = bundle_manager.process_bundle(
+  File "/home/airflow/.local/lib/python3.8/site-packages/apache_beam/runners/portability/fn_api_runner/fn_runner.py", line 1367, in process_bundle
+    result_future = self._worker_handler.control_conn.push(process_bundle_req)
+  File "/home/airflow/.local/lib/python3.8/site-packages/apache_beam/runners/portability/fn_api_runner/worker_handlers.py", line 384, in push
+    response = self.worker.do_instruction(request)
+  File "/home/airflow/.local/lib/python3.8/site-packages/apache_beam/runners/worker/sdk_worker.py", line 650, in do_instruction
+    return getattr(self, request_type)(
+  File "/home/airflow/.local/lib/python3.8/site-packages/apache_beam/runners/worker/sdk_worker.py", line 688, in process_bundle
+    bundle_processor.process_bundle(instruction_id))
+  File "/home/airflow/.local/lib/python3.8/site-packages/apache_beam/runners/worker/bundle_processor.py", line 1113, in process_bundle
+    input_op_by_transform_id[element.transform_id].process_encoded(
+  File "/home/airflow/.local/lib/python3.8/site-packages/apache_beam/runners/worker/bundle_processor.py", line 237, in process_encoded
+    self.output(decoded_value)
+  File "apache_beam/runners/worker/operations.py", line 570, in apache_beam.runners.worker.operations.Operation.output
+  File "apache_beam/runners/worker/operations.py", line 572, in apache_beam.runners.worker.operations.Operation.output
+  File "apache_beam/runners/worker/operations.py", line 263, in apache_beam.runners.worker.operations.SingletonElementConsumerSet.receive
+  File "apache_beam/runners/worker/operations.py", line 266, in apache_beam.runners.worker.operations.SingletonElementConsumerSet.receive
+  File "apache_beam/runners/worker/operations.py", line 953, in apache_beam.runners.worker.operations.DoOperation.process
+  File "apache_beam/runners/worker/operations.py", line 954, in apache_beam.runners.worker.operations.DoOperation.process
+  File "apache_beam/runners/common.py", line 1437, in apache_beam.runners.common.DoFnRunner.process
+  File "apache_beam/runners/common.py", line 1526, in apache_beam.runners.common.DoFnRunner._reraise_augmented
+  File "apache_beam/runners/common.py", line 1435, in apache_beam.runners.common.DoFnRunner.process
+  File "apache_beam/runners/common.py", line 636, in apache_beam.runners.common.SimpleInvoker.invoke_process
+  File "apache_beam/runners/common.py", line 1621, in apache_beam.runners.common._OutputHandler.handle_process_outputs
+  File "apache_beam/runners/common.py", line 1734, in apache_beam.runners.common._OutputHandler._write_value_to_tag
+  File "apache_beam/runners/worker/operations.py", line 266, in apache_beam.runners.worker.operations.SingletonElementConsumerSet.receive
+  File "apache_beam/runners/worker/operations.py", line 953, in apache_beam.runners.worker.operations.DoOperation.process
+  File "apache_beam/runners/worker/operations.py", line 954, in apache_beam.runners.worker.operations.DoOperation.process
+  File "apache_beam/runners/common.py", line 1437, in apache_beam.runners.common.DoFnRunner.process
+  File "apache_beam/runners/common.py", line 1526, in apache_beam.runners.common.DoFnRunner._reraise_augmented
+  File "apache_beam/runners/common.py", line 1435, in apache_beam.runners.common.DoFnRunner.process
+  File "apache_beam/runners/common.py", line 636, in apache_beam.runners.common.SimpleInvoker.invoke_process
+  File "apache_beam/runners/common.py", line 1621, in apache_beam.runners.common._OutputHandler.handle_process_outputs
+  File "apache_beam/runners/common.py", line 1734, in apache_beam.runners.common._OutputHandler._write_value_to_tag
+  File "apache_beam/runners/worker/operations.py", line 266, in apache_beam.runners.worker.operations.SingletonElementConsumerSet.receive
+  File "apache_beam/runners/worker/operations.py", line 953, in apache_beam.runners.worker.operations.DoOperation.process
+  File "apache_beam/runners/worker/operations.py", line 954, in apache_beam.runners.worker.operations.DoOperation.process
+  File "apache_beam/runners/common.py", line 1437, in apache_beam.runners.common.DoFnRunner.process
+  File "apache_beam/runners/common.py", line 1526, in apache_beam.runners.common.DoFnRunner._reraise_augmented
+  File "apache_beam/runners/common.py", line 1435, in apache_beam.runners.common.DoFnRunner.process
+  File "apache_beam/runners/common.py", line 636, in apache_beam.runners.common.SimpleInvoker.invoke_process
+  File "apache_beam/runners/common.py", line 1621, in apache_beam.runners.common._OutputHandler.handle_process_outputs
+  File "apache_beam/runners/common.py", line 1734, in apache_beam.runners.common._OutputHandler._write_value_to_tag
+  File "apache_beam/runners/worker/operations.py", line 266, in apache_beam.runners.worker.operations.SingletonElementConsumerSet.receive
+  File "apache_beam/runners/worker/operations.py", line 953, in apache_beam.runners.worker.operations.DoOperation.process
+  File "apache_beam/runners/worker/operations.py", line 954, in apache_beam.runners.worker.operations.DoOperation.process
+  File "apache_beam/runners/common.py", line 1437, in apache_beam.runners.common.DoFnRunner.process
+  File "apache_beam/runners/common.py", line 1547, in apache_beam.runners.common.DoFnRunner._reraise_augmented
+  File "apache_beam/runners/common.py", line 1435, in apache_beam.runners.common.DoFnRunner.process
+  File "apache_beam/runners/common.py", line 851, in apache_beam.runners.common.PerWindowInvoker.invoke_process
+  File "apache_beam/runners/common.py", line 997, in apache_beam.runners.common.PerWindowInvoker._invoke_process_per_window
+  File "/opt/airflow/dags/task2dag.py", line 91, in process
+    df['MONTH']=df['DATE'].apply(get_date_month)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: "DATE [while running 'Read and Clean CSVs']"
+[2024-03-09T21:44:58.670+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=task2dag, task_id=data_processing_pipe, execution_date=20240309T214431, start_date=20240309T214457, end_date=20240309T214458
+[2024-03-09T21:44:58.687+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 828 for task data_processing_pipe ("DATE [while running 'Read and Clean CSVs']"; 1110)
+[2024-03-09T21:44:58.708+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-03-09T21:44:58.741+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

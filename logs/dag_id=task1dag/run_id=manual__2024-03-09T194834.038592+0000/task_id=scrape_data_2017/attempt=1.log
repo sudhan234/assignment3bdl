@@ -1,0 +1,63 @@
+[2024-03-09T19:55:33.180+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: task1dag.scrape_data_2017 manual__2024-03-09T19:48:34.038592+00:00 [queued]>
+[2024-03-09T19:55:33.192+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: task1dag.scrape_data_2017 manual__2024-03-09T19:48:34.038592+00:00 [queued]>
+[2024-03-09T19:55:33.193+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2024-03-09T19:55:33.209+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): scrape_data_2017> on 2024-03-09 19:48:34.038592+00:00
+[2024-03-09T19:55:33.219+0000] {standard_task_runner.py:60} INFO - Started process 124 to run task
+[2024-03-09T19:55:33.222+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'task1dag', 'scrape_data_2017', 'manual__2024-03-09T19:48:34.038592+00:00', '--job-id', '583', '--raw', '--subdir', 'DAGS_FOLDER/task1dag.py', '--cfg-path', '/tmp/tmpweqrjws9']
+[2024-03-09T19:55:33.226+0000] {standard_task_runner.py:88} INFO - Job 583: Subtask scrape_data_2017
+[2024-03-09T19:55:33.277+0000] {task_command.py:423} INFO - Running <TaskInstance: task1dag.scrape_data_2017 manual__2024-03-09T19:48:34.038592+00:00 [running]> on host 43465f8902fb
+[2024-03-09T19:55:33.369+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='task1dag' AIRFLOW_CTX_TASK_ID='scrape_data_2017' AIRFLOW_CTX_EXECUTION_DATE='2024-03-09T19:48:34.038592+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-03-09T19:48:34.038592+00:00'
+[2024-03-09T19:55:33.372+0000] {logging_mixin.py:188} INFO - cwd: /opt/***
+[2024-03-09T19:57:39.403+0000] {local_task_job_runner.py:302} WARNING - State of this instance has been externally set to None. Terminating instance.
+[2024-03-09T19:57:39.405+0000] {process_utils.py:131} INFO - Sending 15 to group 124. PIDs of all processes in the group: [124]
+[2024-03-09T19:57:39.406+0000] {process_utils.py:86} INFO - Sending the signal 15 to group 124
+[2024-03-09T19:57:39.406+0000] {taskinstance.py:2450} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-03-09T19:57:39.419+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/task1dag.py", line 31, in scrape_data
+    res = requests.get(file_url)
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/sessions.py", line 747, in send
+    r.content
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/models.py", line 899, in content
+    self._content = b"".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b""
+  File "/home/airflow/.local/lib/python3.8/site-packages/requests/models.py", line 816, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/response.py", line 628, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/response.py", line 567, in read
+    data = self._fp_read(amt) if not fp_closed else b""
+  File "/home/airflow/.local/lib/python3.8/site-packages/urllib3/response.py", line 533, in _fp_read
+    return self._fp.read(amt) if amt is not None else self._fp.read()
+  File "/usr/local/lib/python3.8/http/client.py", line 459, in read
+    n = self.readinto(b)
+  File "/usr/local/lib/python3.8/http/client.py", line 503, in readinto
+    n = self.fp.readinto(b)
+  File "/usr/local/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/local/lib/python3.8/ssl.py", line 1274, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/local/lib/python3.8/ssl.py", line 1132, in read
+    return self._sslobj.read(len, buffer)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 2452, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2024-03-09T19:57:39.429+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=task1dag, task_id=scrape_data_2017, execution_date=20240309T194834, start_date=20240309T195533, end_date=20240309T195739
+[2024-03-09T19:57:39.442+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 583 for task scrape_data_2017 ((psycopg2.errors.ForeignKeyViolation) insert or update on table "task_fail" violates foreign key constraint "task_fail_ti_fkey"
+DETAIL:  Key (dag_id, task_id, run_id, map_index)=(task1dag, scrape_data_2017, manual__2024-03-09T19:48:34.038592+00:00, -1) is not present in table "task_instance".
+
+[SQL: INSERT INTO task_fail (task_id, dag_id, run_id, map_index, start_date, end_date, duration) VALUES (%(task_id)s, %(dag_id)s, %(run_id)s, %(map_index)s, %(start_date)s, %(end_date)s, %(duration)s) RETURNING task_fail.id]
+[parameters: {'task_id': 'scrape_data_2017', 'dag_id': 'task1dag', 'run_id': 'manual__2024-03-09T19:48:34.038592+00:00', 'map_index': -1, 'start_date': datetime.datetime(2024, 3, 9, 19, 55, 33, 181950, tzinfo=Timezone('UTC')), 'end_date': datetime.datetime(2024, 3, 9, 19, 57, 39, 428824, tzinfo=Timezone('UTC')), 'duration': 126}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj); 124)
+[2024-03-09T19:57:39.498+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=124, status='terminated', exitcode=1, started='19:55:32') (124) terminated with exit code 1
